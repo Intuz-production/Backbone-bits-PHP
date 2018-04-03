@@ -8,7 +8,7 @@ Backbone bits is an amazing tool to pitch your app to the major mobile platforms
  - <b>Help </b>- Help images, videos, and FAQs.
  - <b>Technologies</b> - PHP/MYSQL
 
-<br/><br/>
+
 <h1>Getting Started</h1>
 
 <h4>Requirements</h4>
@@ -30,12 +30,12 @@ cd Backbone-bits-PHP
 <h4>Note</h4>
 After successful login, when you add any IOS/Android App, go to Help section of App and add Version number (it should be same as Mobile App Version). Version Number is compulsory for displaying Help FAQs, Images and Videos data in Mobile App SDK.
 
-<br/><br/>
+
 <h1>Bugs and Feedback</h1>
 
 For bugs, questions and discussions please use the Github Issues.
 
-<br/><br/>
+
 <h1>License</h1>
 
 The MIT License (MIT)
@@ -52,7 +52,6 @@ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-<br/><br/>
 <h1>More Open Source by Intuz</h1>
 
 <br/>
@@ -60,6 +59,6 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <br/>
 <a href="https://github.com/Intuz-production/Backbone-bits-Android" target="_blank">Backbone bits Android SDK</a>
  
-<br/>
+<br/><br/>
 
 <a href="https://www.intuz.com/" target="_blank"><img src="Screenshots/logo.jpg"></a>
