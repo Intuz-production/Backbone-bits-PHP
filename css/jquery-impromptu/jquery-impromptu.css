@@ -1,0 +1,55 @@
+
+.jqifade {position: absolute;	background-color: #333;}
+div.jqi {	width: 400px;max-width: 90%;font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;	position: fixed !important;	background-color: #f8f8f8;	font-size: 11px;	text-align: left;	border: solid 1px #ccc;	border-radius: 6px;	-moz-border-radius: 6px;	-webkit-border-radius: 6px;	padding: 7px;
+	top: 200px !important;}
+div.jqi .jqicontainer {}
+div.jqi .jqiclose {
+	 background-color: transparent;
+    background-image: url(../../img/spirit_img.png);
+    background-position: -62px -357px;
+    background-repeat: no-repeat;
+    border: medium none;
+    color: #7c7c7c;
+    cursor: pointer;
+    float: right;
+    font-size: 0;
+    height: 21px;
+    margin: 2px 0 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 30px;
+/*    
+    color: #15e1f0;	
+		font-size: 16px;	font-weight: bold;	position: absolute;	right: -2px;	top: 4px;width: 21px;*/
+}
+.jqistates { display: inline-block;}
+div.jqi .jqistate {	background-color: #f8f8f8;	color: #5a5a5a;}
+div.jqi .jqititle { font-weight:300 !important;	padding:5px 10px;	font-size:18px;	line-height: 30px; text-align:center; margin:0; color: #666;font-family: 'Roboto', sans-serif;}
+div.jqi .jqititle b{font-weight: 500 !important;}
+div.jqi .jqimessage {color:#bcbcbc;font-size: 15px;line-height: 20px; padding: 0 10px 10px;text-align: center;}
+div.jqi .jqibuttons {	text-align: right;	margin: 0 auto -7px;/*border-top: solid 1px #ccc;*/
+	background-color: #fff;border-radius: 0 0 6px 6px;-moz-border-radius: 0 0 6px 6px;-webkit-border-radius: 0 0 6px 6px; width:75%;}
+div.jqi .jqibuttons button, div.jqi .jqibuttons button:focus{ background:#fff;
+    border: 1px solid #00b7c5;border-radius: 5px;color: #00b7c5;float: right;font-size: 13px;font-weight:300; margin: 10px 5px 2px;padding: 4px 15px;}
+div.jqi .jqibuttons button.jqidefaultbutton {	color: #23c1cd;}
+div.jqi .jqibuttons button:hover{color: #fff; background:#00b7c5;	outline: none;}
+.jqiwarning .jqi .jqibuttons {	background-color: #b95656;}
+/* sub states */
+div.jqi .jqiparentstate::after {background-color:#777;opacity:0.5;filter: alpha(opacity=60);content:'';position:absolute;top:0;left:0;bottom:0;right: 0;border-radius: 6px;	-moz-border-radius: 6px;-webkit-border-radius: 6px;}
+div.jqi .jqisubstate {	position: absolute;	top: 0;	left: 20%;	width: 60%;	padding: 7px;	border: solid 1px #eeeeee;	border-top: none;
+	border-radius: 0 0 6px 6px;	-moz-border-radius: 0 0 6px 6px;	-webkit-border-radius: 0 0 6px 6px;}
+div.jqi .jqisubstate .jqibuttons button {	padding: 10px 18px;}
+/* arrows for tooltips/tours */
+.jqi .jqiarrow {	position: absolute;	height: 0;	width: 0;	line-height: 0;	font-size: 0;	border: solid 10px transparent;}
+.jqi .jqiarrowtl {	left: 10px;	top: -20px;	border-bottom-color: #ffffff;}
+.jqi .jqiarrowtc {	left: 50%;	top: -20px;	border-bottom-color: #ffffff;	margin-left: -10px;}
+.jqi .jqiarrowtr {	right: 10px;	top: -20px;	border-bottom-color: #ffffff;}
+.jqi .jqiarrowbl {	left: 10px;	bottom: -20px;	border-top-color: #ffffff;}
+.jqi .jqiarrowbc {	left: 50%;	bottom: -20px;	border-top-color: #ffffff;	margin-left: -10px;}
+.jqi .jqiarrowbr {	right: 10px;	bottom: -20px;	border-top-color: #ffffff;}
+.jqi .jqiarrowlt {	left: -20px;	top: 10px;	border-right-color: #ffffff;}
+.jqi .jqiarrowlm {	left: -20px;	top: 50%;	border-right-color: #ffffff;	margin-top: -10px;}
+.jqi .jqiarrowlb {	left: -20px;	bottom: 10px;	border-right-color: #ffffff;}
+.jqi .jqiarrowrt {	right: -20px;	top: 10px;	border-left-color: #ffffff;}
+.jqi .jqiarrowrm {	right: -20px;	top: 50%;	border-left-color: #ffffff;	margin-top: -10px;}
+.jqi .jqiarrowrb {	right: -20px;	bottom: 10px;	border-left-color: #ffffff;}

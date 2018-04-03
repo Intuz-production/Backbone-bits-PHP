@@ -1,0 +1,764 @@
+/************ Appcue.com *******************/
+/** © 2015 Appcue All rights reserved **/
+/** Develop By Intuz.com  **/
+/************ Appcue *******************/
+
+@media(min-width:320px) and (max-width:360px) {
+
+.header-right{ float:left;margin:0;padding:0;right:0px; top:0; display:inline-block; width: 100%;}
+.right-side section.content-header {background:#f2f2f2 !important;float: left;padding:18px 12px !important;width: 100%;} 
+
+.support-request-bottom .request_top{ width:100%; display:inline-block;}
+.support-request-bottom .request_top .request-date, .support-request-bottom .request_top .request-icon{color:#999;float:left;font-size:15px;width: 100%;}
+.support-request-bottom .request_top .request-icon {margin:10px 0 0 0;padding: 0;}
+.support-request-bottom .icon_requst_p dd {float: left;padding:0;width: 100%;}
+
+.icon_requst_p {display:inline-block; padding:20px 15px;}
+.icon_requst_p span {font-size: 13px;}
+
+#saveupperfrm h2.fl, #saveupperfrm div.fr{padding:0 0 15px !important;width: 100%;}
+
+div.dataTables_paginate {float: left;margin:0 auto;width: 100%;}
+.dataTables_wrapper.form-inline .row .col-xs-6, .add-apps-page .add_apps_right .apps_cont_box2 h3{ width:100%;}
+.effects .img{ float:none !important;}
+
+.satting_top_title .col-md-6{ padding:0;}
+.satting_top_title .img{ margin: 0 auto !important;}
+.satting_top_title .user_email_id {margin: 0;padding: 0;text-align: center; width: 100%;}
+
+.account_active dd label {color: #999;width: 48%;}
+
+.add-apps-page .add_apps_right .apps_cont_box2 h2.fr.total, .add-apps-page .add_apps_right .apps_cont_box2 .fr.col-md-4{ width:100%; text-align:center;}
+.add-apps-page .add_apps_right .apps_cont_box2 .fr.col-md-4 ul.subscrip_ul {display: inline-block;list-style:none;margin: 0; padding: 0;width: 180px;}
+.header a.logo img{ width:78%;}
+.popup_bottom_right a {font-size: 10.5px;} 
+
+#addappfrm .col-lg-12 .col-md-12.add_apps_left .col-md-7.padding0, #addappfrm .col-lg-12 .col-md-12.add_apps_left .col-md-7.padding0 .apps_cont_box1 .col-md-5 .col-md-12{ width:100%; padding:0; display:inline-block;}
+#addappfrm .col-lg-12 .col-md-12.add_apps_left .col-md-7.padding0 .apps_cont_box1 .col-md-5.padding0, #addappfrm .col-lg-12 .col-md-12.add_apps_left .col-md-7.padding0 .apps_cont_box1 .col-md-5{width:100% ; margin:0 0%; float:left;}
+.add_apps_left .add_apps_bottom {display:inline-block;float:right;margin:3% 8%;padding:26px 0 0;}
+
+}
+
+@media(min-width:320px) and (max-width:480px) {
+
+.header a.logo img{ margin:-5px 0 0;padding:0;width:235px;}
+.right-side .header-right{ width:100%; padding: 15px 0 0 13px;}
+.right-side .bk {float: left;}
+.right-side .section h1, label.control-label, .api-key {width:100%;}
+
+.bk .click-to-add-apps img {padding:20px 0 0 48px; width:auto;}
+.icon_requst_p{display:inline-block;padding:20px 15px;}
+.support-request-bottom .icon_requst_p dd {float:left;padding:0;width:100%;}
+#addappfrm .col-lg-12 .col-md-12.add_apps_left .col-md-7.padding0 .apps_cont_box1 .col-md-5.padding0, #addappfrm .col-lg-12 .col-md-12.add_apps_left .col-md-7.padding0 .apps_cont_box1 .col-md-5{width:98%; margin:0 1%; float:left;}
+.company_name .col-md-5 {width:100% !important; float:none;}
+.app__logo_dic {margin: 0;padding:0;width:51%;}
+
+ul.search__top_title li.apps_section, ul.search__top_title li.promotr_section, ul.search__top_title li.appnalytics_section, ul.search__top_title li.price_section{vertical-align:middle;width:100%;}
+ul.search__top_title li.price_section title {float:none; padding:8px 0 0;text-align:left;}
+ul#ui-id-1{display:block;left:37px;position:relative;top:-223px;width:90% !important;}
+ul#myTab.tutorial_teb li {margin:0 16%;}
+
+.tutorial_tebing_top { width:100%; display:inline-block;}
+.tutorial_tebing_top ul#myTab{ width:100% !important; display:inline-block;}
+.tutorial_tebing_top .video_check {margin:14% 0 0 48%;}
+.tutorial_tebing_top .img_check {margin:52% 0 0 48%;}
+.tutorial_tebing_top .faq_check {margin:86% 0 0 48%;}
+
+.helpr_top_title_text_img {color: red;float: left;font-size: 14px;font-style: italic;padding: 5px 0 0;width: 100%;}
+.display-startup .video-type{ padding:0 !important;}
+
+.qustion_box, .qustion_box .col-md-12.padding0, .qustion_box .col-md-12.padding0 .col-sm-12.padding0, .qustion_box .col-sm-12.padding0, .fr.font_color_box, .fr.font_color_box .col-sm-9.padding0{ width:100%; display:inline-block;}
+
+}
+
+@media(min-width:360px) {
+
+.tutorial_tebing_top .video_check {margin:14% 0 0px 44%;}
+.tutorial_tebing_top .img_check {margin:45% 0 0 44%;}
+.tutorial_tebing_top .faq_check {margin:75% 0 0 44%;}
+
+}
+
+@media (min-width:480px){
+
+ul#myTab.tutorial_teb li {margin: 0 28%;}
+.tutorial_tebing_top .video_check {margin:11% 0 0 50%;}
+.tutorial_tebing_top .img_check {margin:33% 0 0 50%;}
+.tutorial_tebing_top .faq_check {margin:56% 0 0 50%;}
+
+}
+
+@media (max-width:480px){
+
+.bk .click-to-add-apps img {padding: 20px 0 0 70px; width: auto;}
+ul.deta_table_menu li a {color: #666; font-size: 13px;font-weight: normal; margin: 0; padding: 11px;}
+ul#ui-id-1{display: block; left: 37px;position: relative;top: -223px;width:93% !important;}
+.app__logo_dic {margin: 0;padding: 0;width:68%;}
+
+}
+
+@media(min-width:1px) and (max-width:640px) {
+
+.right-side section.content-header {background:#fff !important;box-shadow: 0 0 0 !important;padding: 15px 12px !important;}
+
+.navbar-header{ margin:15px 0 0 10px; float:left;}
+.navbar-header button.navbar-toggle:hover{ background:#00b7c5;color:#FFF;}
+.navbar-header button.navbar-toggle:hover span{background:#fff;}
+.header .navbar-default nav.navbar-static-top .collapse{ border:none;}
+.navbar-collapse {padding-left: 1%;padding-right:2%;}
+.navbar-collapse {border-top:1px solid transparent;box-shadow:0 1px 0 rgba(255, 255, 255, 0.1) inset;margin:0 0 0 -16px !important; max-height: 340px; overflow-x: visible;padding-left: 1px;padding-right: 15px; width: 100%;}
+.navbar-collapse ul.nav{margin:0;padding:0;width:100%;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{ background:#5a5a5a;  margin:0px 0 10px 0 !important; border:0; padding:0 1%;}
+.navbar-collapse.fl.in ul.navbar-nav li{ width:100%; display:inline-block;}
+.navbar-collapse.fl.in ul.navbar-nav li a{ padding:10px 5%;}
+.navbar-collapse.fl.in ul.navbar-nav li ul li a{ color:#ccc;}
+
+.promote-apps .col-md-8{ width:100%; padding:0;}
+.promote_platform_top{padding:0; }
+.promote-apps .col-md-4, .iphone_platform, .features_apps, label.control-label, .api-key{ width:100%;}
+
+.iphone_view .view_middel_content {font-size: 15px;min-height: 167px;padding: 5%;width: 100%;}
+.iphone_view .view_bottom_content {margin: 0;padding: 0 2%;}
+.iphone_view {margin:0;min-height:389px; padding:0;width:100%;}
+
+.promote-apps .col-md-4 .iphone_platform{background-position:73% 0;height:540px; margin:0 auto;padding:64px 50px 0 25px;width:288px;}
+.thanks_but_preview {padding: 6px 10px;}
+
+.right-side section.content-header h1 {font-size: 22px;}
+.right-side {margin:11% 0 0 !important;}
+
+.apps_cont_box1{padding:4% 0;}
+.add-apps-page {float:left;}
+form#saveupperfrm{padding:10px 0 0 0;display:inline-block;width:100%;}
+button.no_thx_button, button.upgrade_button{font-size: 15px;}
+
+.col-md-12 .row .padding0 .form-group label{ float:none;text-align:left !important;}
+.col-md-12 .row .padding0 .form-group div, .padding0 .padding0 .col-md-12{padding:0; display:inline-block; width:130px; float:left;}
+
+.new_add_app ul li .new_promotr{display:inline-block; margin:0;padding:0;width: 100%;}
+.new_add_app ul li .new_promotr .col-md-4{width:auto;}
+
+.manually_chan .manually_chan2 {margin:0;padding:0;width:56% !important;}
+
+#addappfrm .col-lg-12 .add_apps_left .col-md-2.padding0.manually_chan .col-md-12.padding0.manually_chan1{display:inline-block;float:left;margin:0 10px 0 0;padding:0;width:130px;}
+#addappfrm .col-lg-12 .add_apps_left .col-md-2.padding0.manually_chan .col-md-12.padding0.manually_chan2{ display:inline-block;float:left;margin:0; padding:0;width:51% !important;}
+#addappfrm .col-lg-12 .add_apps_left .col-md-2.padding0.manually_chan .col-md-12.padding0.manually_chan2 #file_logo {margin:0 auto; text-align:left; width:151px;}
+
+#addappfrm .col-lg-12 .add_apps_left .col-md-2.padding0.manually_chan, .manually_chan .col-md-12.padding0.manually_chan2 .col-md-12.padding0, #addappfrm .col-lg-12 .col-md-12.add_apps_left .col-md-7.padding0, #addappfrm .col-lg-12 .col-md-12.add_apps_left .col-md-7.padding0 .apps_cont_box1 .col-md-5, #addappfrm .col-lg-12 .col-md-12.add_apps_left .col-md-7.padding0 .apps_cont_box1.col-md-5 .col-md-12{width:100%; display:inline-block;}
+ul.analytics_top li a p {font-size:15px;}
+
+.padding-r0{ padding-right:15px;}
+#general_setting .col-md-6 .col-md-12.padding0, #general_setting .col-md-6 .col-md-12.padding0 .col-sm-12.padding0, #general_setting .col-md-12 .col-md-6 .col-sm-12.padding0 {display: inline-block;padding: 0;width: 100%;}
+
+#saveupperfrm .promote_platform_top {display:inline-block;padding:0; width:97%;}
+.upgradefrm_new .col-md-8 form[enctype="multipart/form-data"] .add_apps_center {padding:25px 15px;}
+
+/************ header menu *******************/
+
+.navbar-collapse ul.nav li.open ul{animation-duration: 0s !important;border:none !important;float: left;height:auto; margin: 0 0 0 0;max-width:100%;padding: 0 0 0 5%;width:95%;display:inline-block;background:none;}
+.navbar-collapse ul.nav li.open ul li a{ animation-duration: 0s !important;float: left;height:auto;margin: 0 0 0 0; max-width:100%; padding: 0 0 0 0;width:100%;display:inline-block;	background:none;	border:none !important;}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li.active a {background-color:#515151; color: #fff !important;border:none !important;}
+.navbar-collapse ul.nav li.support_nev.open ul {animation-duration: 0s !important;border:none !important;float: left;height:auto; margin: 0 0 0 0;max-width:100%;padding: 0 0 0 5%;width:95%;display:inline-block;background:none;}
+.navbar-collapse ul.nav li..open ul li a{ animation-duration: 0s !important;float: left;height:auto;margin: 0 0 0 0; max-width:100%; padding: 0 0 0 0;width:100%;display:inline-block;	background:none;	border:none !important;}
+.navbar-default .navbar-nav .open.support_nev .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open.support_nev .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open.support_nev .dropdown-menu > li.active > a {background-color:#515151; color: #fff !important;border:none !important;}
+
+.tutorial_video .col-md-12{ padding:0;}
+.tutorial_video .col-md-12 .row .col-xs-6.col-md-4 .input-group {position: relative; width:100%;}
+
+.mainbox .row .center_align .center_a {margin:0 auto;width: 100%;}
+.whitebox {border:0 solid #fff;width: 100%;}
+.inbox { background:#fff;border:1px solid #ccc;border-radius: 4px;margin:auto;padding:20px 8px; width: 92%;}
+.tutorial-input {border-radius:4px !important; font-size: 15px;margin:0 0 2%;width:100%;}
+
+.col-md-12 .row .padding0 .form-group label.col-md-4 {float:left; width:70%;}
+.col-md-12 .row .padding0 .form-group div.col-sm-3{float:left; width:30%;}
+
+form#updatevideofrm .col-xs-6.col-md-4{ width:100%; padding:0 15px 5% 15px;}
+form#updatevideofrm .col-xs-6.col-md-4 .tutorial-input {width: 100% !important;}
+form#upgradefrm .col-md-12 .row .col-md-12 .col-md-6.padding0 {float:left;width: 100%;}
+form#upgradefrm .col-md-12 .row .col-md-12 .col-md-6.padding0 div.upgrade_button_t{padding:5px 15px;}
+form#setfrm #settings .panel-body .form-group{display: inline-block; margin-bottom: 15px;width:100%;}
+
+.add_apps_top .col-md-12 .col-md-5 {padding:0;width: 100%;}
+inpput#upgrade_date{ width:100%;}
+
+.iphone_platform_other div.platform_animation_img {height:236px;}
+.add_apps_top .col-md-12 .col-md-5.fl input, .add_apps_top .col-md-12 .col-md-5.fr input {width:98%;}
+
+.promote-apps form.iphone_platf_oth {float:none;height:540px;margin:0 auto;width:285px;}
+
+ul li .new_promotr .col-md-2.padding0 {display: inline-block;margin:0 14px 0 0;width:98px;float: left;}
+ul li .new_promotr .promotr_section {float:left;width:55%;}
+ul li .new_promotr .col-md-3 {color: #737373;float:left;font-size: 16px;font-weight: 400; padding: 15px 0 15px 33%; width: 100%;}
+
+/**************Support Request**********************/
+
+.support-request-top .fr.col-md-4{ width:100%; float:left;}
+.support-request-top .fr.col-md-4 .col-md-4{width:100%; margin:0 0 10px 0; float:left;}
+.support-request-middel ul li .request_middel{font-size:13px;}
+.support-request-bottom .col-md-12 .col-md-6{float: left;padding: 0; width: 50% !important;}
+.support-request-top{ position:relative;}
+
+.request-date, .request-icon{color: #999;float: left;font-size: 15px;}
+.request-date {width: 60%;}
+.request-icon{width:40%; padding:0;}
+
+.simplemodal-wrap .simplemodal-data .form-group {display:inline-block;width:49%;}
+#simplemodal-container{height:98% !important;left:40px;position: fixed;top:3px;width:83% !important; z-index:1002;}
+
+#upgradefrm .col-md-12 .row .col-md-6{ padding:0 0 10px 0;}
+
+.form-group label.control-label{width:100%;display:block;float:none;padding:0 15px;}
+form#setfrm .panel-body, form#setfrm .panel-body .col-xs-12, form#setfrm .row .col-xs-12 .col-md-12 .col-sm-6, form#setfrm .panel-body .col-xs-12 .col-md-12 .col-sm-6, #settings .panel-body  
+.col-md-6, .add-apps-page .add_apps_left{ padding:0 0;}
+
+form#setfrm .panel-body .col-xs-12 .col-md-12{ width:100%; display:inline-block;}
+form#account_settings{ display:inline-block;}
+
+#file_logo {margin:0 !important;text-align:center;width:151px;}
+
+.col-md-6 .col-md-12 .col-sm-6, .col-md-6 .col-md-12 label.col-md-5{ padding:0;float:left; width:100%;}
+.col-sm-1.col-md-1.col-lg-1s{display:inline-block; width:100%;}
+.col-sm-1.col-md-1.col-lg-1s .form-group{display:inline-flex;margin: 0 auto;width: 100%; float:left;}
+
+.apps_cont_box1 .col-sm-2.col-md-2.col-lg-2 .form-group{ width:100%;}
+.apps_cont_box2 .col-sm-9.col-md-9.col-lg-9, .apps_cont_box2 .col-sm-3.col-md-3.col-lg-3 .form-group label.control-label, .apps_cont_box2 .col-sm-3.col-md-3.col-lg-3 .form-group .col-sm-8, .apps_cont_box2 .col-sm-3.col-md-3.col-lg-3{ float:left; width:auto;}
+
+.add-apps-page .add_apps_left .col-md-4{width:100%; margin:0; padding:0 0 35px 0; display:inline-block;}
+.add-apps-page .add_apps_left .col-md-4 .cl.height2{ display:none;}
+.add-apps-page .add_apps_left .col-md-4 .col-md-12.padding0{ width:50%; float: left;}
+.add-apps-page .add_apps_right{ width:100%; margin:0; padding:30px 0 0 0;}
+.add-apps-page .add_apps_right .apps_cont_box2 h2.fr.total{ float:right; padding:4px 0 0 0;}
+.add-apps-page .add_apps_right .apps_cont_box2 .fr.col-md-4{ width:100%; padding:10px 0 0 0;}
+
+ul.apps-listing {float: left;}
+ul.apps-listing li {width:128px;min-height: 155px; margin:0;}
+ul.all-apps-icon {float: left;list-style: none;margin: 0;padding: 0; width:auto;}
+
+.header a.logo img {margin: -5px 0 0; padding: 0;width: 235px;}
+.iphone_platform_other{height: 388px;overflow: hidden;position: relative;width: 100%;}
+.addanimation_box span {cursor: pointer;  float: left;margin: 0 5% 5% 0;min-height: 200px; width: 130px;}
+
+#addpromotefrm .col-md-12 .col-md-6.fl, #addpromotefrm .col-md-12 .col-md-6.fr{ width:100%;}
+#addpromotefrm .col-md-12 #setfrm {display: inline-block;width: 100%;}
+#addpromotefrm .col-md-12 #setfrm #settings .panel-body{display: inline-block;width: 100%; margin:0 0 2% 0;}
+
+#account-settings .col-md-12 .satting_top_title .col-md-6 .col-md-12.padding0 .padding0.fr{width:100% !important;}
+label.control-label {color: #999;font-size: 14px; line-height: 28px; margin:0px 0 0; padding: 0 8px 0 0;}
+
+.promote_platform_bottom {padding: 30px 0 0;}
+.screenshot{margin:0 auto;width:100%;}
+
+ul.apps-listing li .logo-icon {height:118px;width:118px;}
+input.serach__apps {display:inline-block;font-weight: 300;width: 100%;}
+
+.company_name {margin:0 auto;padding: 50px 0; width: 100%;}
+.company_name .col-md-1.padding0 strong{width:100%; padding:13px 0 0 0 !important;}
+.company_name .col-md-2.padding0.fl{width:100%; padding:0 0 20px 0;text-align:center;}
+
+#new-add-apps .company_name .col-md-2.padding0 label.control-label:first-child{ width:88px;}
+#new-add-apps .company_name .col-md-2.padding0.fl .col-md-12{ display: inline-block;margin: 0 auto !important;padding: 28px 0 0 !important; text-align: center;width: 170px;}
+.search__list, ul.search__top_middel{padding:0;}
+
+ul.search__top_title li{margin: 0 0 10px;}
+ul.search__top_middel li div.apps_section{float:left;width:100%;margin:0 0 20px;}
+ul.search__top_middel li div.promotr_section, ul.search__top_middel li div.appnalytics_section {float: left;width:100%;}
+ul.search__top_middel li div.price_section {float: left;font-size: 18px;font-weight: bold;padding: 12px 0 0;text-align: left;width: 100%;}
+
+.app__img {margin: 0 10px 0 0;padding: 0;width: 130px;}
+.fl.if_you_change, .small_font{padding:14px 0;width:100%;}
+.add_apps_left{padding:0;}
+.manually_chan {width:100% !important;}
+form#addappfrm {display:inline-block;width: 100%;}
+
+.add_apps_left {display:inline-block;padding: 0;}
+aside.right-side {display:block;float:left;margin:10px 0 0 0 !important;padding: 0 0 50px; width:100%;}
+
+ul.deta_table_menu {display:inline-block;list-style: outside none none;margin: 0 auto;padding: 0;width: 100%;}
+ul.analytics_top {border-bottom: 2px solid #eee;display: inline-block;list-style: outside none none;margin: 0;padding: 0;width: 100%;}
+ul.analytics_top li {width:49%;margin:0 0 5% 0;}
+ul.analytics_top li a {display:inline-block;margin: 0 0;width: 100%; text-align:center;}
+ul.analytics_top li a:hover, ul.analytics_top li a.active {border-bottom: 2px solid #00cccc;display: inline-block;margin: 0 0; width: 100%;}
+ul.analytics_top li a i {text-align:center;}
+
+ul.search__top_middel li{ padding:25px 0;}
+
+#document .document-left {border-right: 1px solid #eee;color: #333;display: block;height:100%;left: 0; margin: 0;padding: 0 0 0 30px; position: inherit; top: 0;width: 100%;}
+#document .document-right {display:block;margin: 0 0 5% !important;padding: 2% 0 0;width:100%;}
+section._mPS2id-t .content {display:inline-block;margin: 0 0;padding: 0 0 0 2%;width:100%;}
+
+/******************** tuterol video ***************/
+
+.content {padding: 40px 10px 0;}
+.promote_platform_bottom #general_setting .col-md-6 .col-sm-8, .promote_platform_bottom #setting .col-md-12 .row .col-md-12 .col-md-6.padding0 .upgrade_button_box .col-md-11.padding0 .col-md-12.padding0 .col-sm-9{display:inline-block; width:100% !important; padding:0;}
+
+.promote_platform_bottom #setting .col-md-12 .row .col-md-6.padding0 .col-md-12.padding0{ display:inline-block; width:100%; padding:0 15px;}
+.promote_platform_bottom #general_setting .col-md-6 .col-sm-10.padding0, .promote_platform_bottom #setting .col-md-12 .row .col-md-6.padding0 .col-md-12.padding0 .col-md-6, .promote_platform_bottom #setting .col-md-12 .row .col-md-6.padding0 .col-md-12.padding0 .col-md-6 .col-md-12, .promote_platform_bottom #setting .col-md-12 .row .col-md-6.padding0 
+
+form#upgradefrm .promote_platform_bottom .tab-content .tab-pane .col-md-6 dd.fl.col-md-12.padding0{ margin:0 !important;}
+form#upgradefrm .promote_platform_bottom .tab-content .tab-pane .col-md-6 dd.col-md-12{ width:100%; display:inline-block; margin:0 0 10px 0;}
+
+.col-md-12 .row .padding0 .form-group div, .padding0 .padding0 .col-md-12 {width:100%;}
+.col-md-12.padding0 .col-md-6 .col-sm-10, .promote_platform_bottom #setting .col-md-12 .row .col-md-12 .col-md-6.padding0 .upgrade_button_box .col-md-11.padding0 .col-md-12.padding0 .col-md-3{ display:inline-block; width:100%;}
+
+#addappfrm .col-lg-12 .col-md-12.padding0 .col-lg-12 .new_promotr {padding: 20px 0 0;width: 100%;}
+#addpromotefrm .col-md-12 .col-md-5.fl.col-md-4{ padding:0 !important;}
+#promotional{ padding:0 15px;}
+#saveupperfrm .col-md-12.promote_platform_top.padding0 div.fl{ width:195px !important; margin:0 0 10px 0;}
+
+}
+
+@media(min-width:481px) and (max-width:600px) {
+
+.features_apps {width:45.5%; min-height:385px;}
+ul.apps-listing {float:left;}
+ul.apps-listing li {width:30%;min-height:155px;}
+ul#ui-id-1{display: block; left: 37px;position: relative;top: -223px;width:348px !important;}
+ul.search__top_title li.apps_section, ul.search__top_title li.promotr_section, ul.search__top_title li.appnalytics_section, ul.search__top_title li.price_section{vertical-align:middle;width:50%;}
+
+.navbar-toggle {margin-top:18px;}
+.navbar-collapse{background:#5a5a5a;margin:0 0 0 -58%; padding:0;float:left;width:172%;}
+.navbar-collapse ul.nav li.open ul{width:auto;}				
+
+.company_name .col-md-5 {width:57% !important; float:none;}
+.app__logo_dic {margin: 0;padding: 0;width:68%;}
+}	
+	
+@media(min-width:600px) and (max-width:640px) {
+	
+form#saveupperfrm {display: inline-block;float: right;padding:0;width:100%;}
+#account-settings .col-md-12 .satting_top_title .col-md-6 .col-md-12.padding0 .padding0.fr{width:100% !important;}
+#addappfrm .col-lg-12 .col-md-12.add_apps_left .col-md-7.padding0 .apps_cont_box1 .col-md-5.padding0, #addappfrm .col-lg-12 .col-md-12.add_apps_left .col-md-7.padding0 .apps_cont_box1 .col-md-5{width:48%; margin:0 1%; float:left;}
+
+ul#ui-id-1{display: block; left: 37px;position: relative;top: -223px;width:348px !important;}
+.appnalytics_section label.control-label.fl{width: 70%;}
+ul.search__top_middel li div.promotr_section, ul.search__top_middel li div.appnalytics_section, ul.search__top_middel li div.price_section {float: left;width: 33%;}
+
+.tutorial_tebing_top { width:100%; display:inline-block;}
+.tutorial_tebing_top ul#myTab{ width:100% !important; display:inline-block;}
+ul#myTab.tutorial_teb li {margin: 0 2%;}
+.tutorial_tebing_top .video_check {margin:44px 0 0 17%;}
+.tutorial_tebing_top .img_check {margin:44px 0 0 51%;}
+.tutorial_tebing_top .faq_check {margin:44px 0 0 85%;}
+
+
+}
+
+@media(min-width:600px) and (max-width:767px) {
+
+.add-apps-page .add_apps_left .col-md-4{float:left; width:20%; display:inline-block;}
+.add-apps-page .add_apps_left .col-md-8{width:80%; display:inline-block;}
+
+.promote_platform_top {float:right; width:100%;}
+.add-apps-page .add_apps_right{margin:20px 0 0 0; display:inline-block; border-top:1px solid #eee; padding-top:20px}
+
+.bk .click-to-add-apps img {padding: 50px 0 0 75px;width: auto;}
+ul.apps-listing li {min-height: 220px; width: 24%;}
+
+#addappfrm .col-lg-12 .add_apps_left .col-md-2.padding0.manually_chan .col-md-12.padding0.manually_chan2 {display: inline-block;float: left;margin: 0;padding: 0;width: 77% !important;}
+#addappfrm .col-lg-12 .col-md-12.add_apps_left .col-md-7.padding0 .apps_cont_box1 .col-md-5.padding0, #addappfrm .col-lg-12 .col-md-12.add_apps_left .col-md-7.padding0 .apps_cont_box1 .col-md-5{width:48%; margin:0 1%; float:left;}
+
+.promote_platform_bottom #general_setting .col-md-6 .col-sm-10.padding0, .promote_platform_bottom #setting .col-md-12 .row .col-md-6.padding0 .col-md-12.padding0 .col-md-6, .promote_platform_bottom #setting .col-md-12 .row .col-md-6.padding0 .col-md-12.padding0 .col-md-6 .col-md-12, .promote_platform_bottom #setting .col-md-12 .row .col-md-6.padding0 
+.col-md-12.padding0 .col-md-6 .col-sm-10, .promote_platform_bottom #setting .col-md-12 .row .col-md-12 .col-md-6.padding0 .upgrade_button_box .col-md-11.padding0 .col-md-12.padding0 .col-md-3, .api-key, label.control-label, .upgrade_button_box{ display:inline-block; width:100%;}
+
+.col-md-12.padding0 .col-sm-9{display:inline-block; width:100% !important; padding:0;}
+
+.promote_platform_bottom #general_setting .col-md-6 .col-sm-8, .promote_platform_bottom #setting .col-md-12 .row .col-md-12 .col-md-6.padding0 .upgrade_button_box .col-md-11.padding0 .promote_platform_bottom #setting .col-md-12 .row .col-md-6.padding0 .col-md-12.padding0{ display:inline-block; width:100%; padding:0 15px;}
+.promote-apps .col-md-8 .col-md-12.promote_platform_top{float: none;margin: 0 auto;padding: 0 7px;width: 100%}
+.promote-apps .col-md-8 form#upgradefrm{ width:100%; display:inline-block; float:left;}
+
+form#upgradefrm .promote_platform_bottom .tab-content .tab-pane .col-md-6 dd.fl.col-md-12.padding0{ margin:0 !important;}
+form#upgradefrm .promote_platform_bottom .tab-content .tab-pane .col-md-6 dd.col-md-12{ width:100%; display:inline-block; margin:0 0 10px 0;}
+
+.company_name .col-md-5 {width:57% !important; float:none;}
+.qustion_box, .qustion_box .col-md-12.padding0, .qustion_box .col-md-12.padding0 .col-sm-12.padding0, .qustion_box .col-sm-12.padding0, .fr.font_color_box, .fr.font_color_box .col-sm-9.padding0{ width:100%; display:inline-block;}
+
+#faq_page{ padding:0 15px;}
+
+}
+		
+@media(min-width:768px){
+
+.navbar-collapse ul.nav li a{font-size: 14px;}
+.add_apps_bottom {padding:20px 0 0 !important;text-align:right; width:185px;}
+
+.right-side section.promote-apps .col-md-8 {float:left;padding:0 0 0 1%; width:100%;}
+.right-side .promote-apps form#upgradefrm_preview{float: none;margin: 0 auto; padding: 0;width: 277px;}
+.right-side section.promote-apps .col-md-8 {float: left;padding: 0 0 0 0; width: 100%;}
+
+#settings .panel-body .col-md-6 .col-md-12.padding0 label.col-sm-3.control-label.padding0{ width:43%;}
+#document .document-right {display: block;margin:0 0 5% 250px;padding: 2% 0 0;width:68%;}
+
+/*
+.apps_cont_box1 .col-sm-2.col-md-2.col-lg-2 { width: 22%;}
+.apps_cont_box1 .col-sm-3.col-md-3.col-lg-3 {min-height:83px;width: 39%;}
+.apps_cont_box1 .col-sm-3 div.height2{height:0px !important;}
+.apps_cont_box1 .col-sm-3 div.height1{height:0px !important;}
+.apps_cont_box1 .col-sm-3 div.height3{height:0px !important;}
+.add-files {min-height: 147px;}
+.apps_cont_box2 .col-sm-9.col-md-9.col-lg-9{ width:50%;}
+.apps_cont_box2 .col-sm-3.col-md-3.col-lg-3{ width:50%;}
+.apps_cont_box2 .col-sm-3.col-md-3.col-lg-3 .form-group label.control-label{width:33%;}
+*/
+
+ul#myTab.tutorial_teb li {margin: 0 30px;}
+.tutorial_tebing_top .video_check {margin:44px 0 0 17%;}
+.tutorial_tebing_top .img_check {margin:44px 0 0 51%;}
+.tutorial_tebing_top .faq_check {margin:44px 0 0 85%;}
+
+
+	}
+
+@media(min-width:800px){
+
+.navbar-collapse ul.nav li a{font-size: 16px;}
+.add_apps_bottom {padding: 20px 0 0 !important;text-align: right; width: 185px;}
+
+.right-side section.promote-apps .col-md-8 {float: left;padding: 0 0.8% 0 0%; width: 100%;}
+.right-side .promote-apps form#upgradefrm_preview {float: none ;margin: 0 auto; padding: 0;width: 277px;}
+
+#settings .panel-body .col-md-6 .col-md-12.padding0 label.col-sm-3.control-label.padding0{ width:41%;}
+#document .document-right {display: block;margin: 0 0 5% 250px;padding: 2% 0 0;width:68%;}
+
+/*.apps_cont_box1 .col-sm-2.col-md-2.col-lg-2 {width: 22%;}
+.apps_cont_box1 .col-sm-3.col-md-3.col-lg-3 {min-height: 83px;width: 39%;}
+.apps_cont_box1 .col-sm-3 div.height2{height:0px !important;}
+.apps_cont_box1 .col-sm-3 div.height1{height:0px !important;}
+.apps_cont_box1 .col-sm-3 div.height3{height:0px !important;}
+.add-files {min-height: 147px;}
+.apps_cont_box2 .col-sm-9.col-md-9.col-lg-9{ width:50%;}
+.apps_cont_box2 .col-sm-3.col-md-3.col-lg-3{ width:50%;}
+.apps_cont_box2 .col-sm-3.col-md-3.col-lg-3 .form-group label.control-label{width:33%;}
+*/	
+.tutorial_tebing_top .img_check {margin-left: 49%;}
+.tutorial_tebing_top .faq_check {margin-left: 82%;}
+
+ul#myTab.tutorial_teb li {margin: 0 36px;}
+.tutorial_tebing_top .video_check {margin:44px 0 0 17%;}
+.tutorial_tebing_top .img_check {margin:44px 0 0 51%;}
+.tutorial_tebing_top .faq_check {margin:44px 0 0 85%;}
+
+}	
+
+@media(min-width:980px) {
+.navbar-collapse ul.nav li a {font-size: 17px; padding:28px 16px !important;}
+.add_apps_bottom {padding: 20px 0 0 !important;text-align: right;width:350px;  float: right;}
+.center_align .center_a .question_box{ width:auto !important;}
+.question_box .arrow1 {margin:144px 25px 0; transform: rotate(-180deg);vertical-align: middle;}
+
+.right-side .promote-apps .col-md-4 {float: left;margin: 0 auto;padding: 0;width: 335px;}
+.right-side section.promote-apps .col-md-8 {float: left;padding: 0 0 0 1%; width:69%;}
+.right-side .promote-apps form#upgradefrm_preview {float:left;}
+
+#settings .panel-body .col-md-6 .col-md-12.padding0 label.col-sm-3.control-label.padding0{ width:33%;}
+#addpromotefrm .col-md-12 .col-md-5.fl{ width:55%;}
+#addpromotefrm .col-md-12 .col-md-5.fr.screenshot{width:60%;}
+#addappfrm .col-lg-12 .col-md-12.padding0 .col-lg-12 .new_promotr {padding: 20px 0 0;width:22.3% !important;}
+#document .document-right {display: block;margin: 0 0 5% 283px;padding: 2% 0 0;width:75%;}
+
+ul#myTab.tutorial_teb li {margin: 0 66px;}
+
+.tutorial_tebing_top .video_check {margin:44px 0 0 17%;}
+.tutorial_tebing_top .img_check {margin:44px 0 0 51%;}
+.tutorial_tebing_top .faq_check {margin:44px 0 0 85%;}
+
+}	
+
+@media(min-width:768px) and (max-width:980px) {
+
+.navbar-collapse ul.nav li a {color: #fff;padding:29px 15px;}
+.iphone_view .view_middel_content {min-height: 238px;}
+.iphone_view .view_middel_content {font-size: 16px;}
+.iphone_platform_other div.platform_animation_img {min-height:235px;}
+.iphone_platform_other {height:398px;}
+.iphone_platform_other div.platform_animation_img {height: 247px;}
+
+/*.right-side section.promote-apps .col-md-8 {float: left;padding: 0 0 0 1%;width: 62%;}*/
+.promote_platform_top ul.nav li a { padding: 5px 12px;}
+.mainbox .row .center_align .center_a {margin: 0 auto;width: 100%;}
+.arrow1 {margin: 44px 25px 0;transform: rotate(-180deg);vertical-align: middle;}
+
+.add-apps-page .apps_cont_box1 .col-sm-3.col-md-3.col-lg-3 .height2{ height:auto !important; display:none;}
+#settings .panel-body .col-md-6 {display: inline-block;padding: 0;width: 49%;}
+.padding-t {clear: both; padding-top: 15px;}
+
+form#upgradefrm .col-md-12 .row .col-md-6{ float: left;margin: 0 1% 0 0;width: 49%;}
+form#upgradefrm .col-md-12 .row .col-md-6 .col-md-12, .company_name .col-md-1.padding0{ display:inline-block; width:100%;} 
+form#upgradefrm .col-md-12 .row .col-md-6 .col-md-12 label.control-label{ width:40%;}
+form#upgradefrm .col-md-12 .row .col-md-6 .col-sm-6{ width:58%;}
+form#upgradefrm .col-md-12 .row .col-md-6 dd.col-md-6{ margin:0 0 0 40px;}
+form#addappfrm .add-apps-page .apps_cont_box1 .col-sm-2.col-md-2.col-lg-2{ width:26%; height:auto;}
+form#addappfrm .add-apps-page .apps_cont_box1 .col-sm-2.col-md-2.col-lg-2 .height2, form#addappfrm .add-apps-page .apps_cont_box1 .col-sm-1.col-md-1.col-lg-1s .height2, form#addappfrm 
+form#addappfrm .add-apps-page .apps_cont_box1 .col-sm-2.col-md-2.col-lg-2 .form-group, form#addappfrm .add-apps-page .apps_cont_box1 .col-sm-1.col-md-1.col-lg-1s .form-group{ padding:0 !important; margin:0 !important;}
+form#addappfrm .add-apps-page .apps_cont_box1 .col-sm-1.col-md-1.col-lg-1s {width: 16%;}
+form#addappfrm .add-apps-page .apps_cont_box1 .col-sm-3.col-md-3.col-lg-3 {width:32%; min-height: 75px;}
+
+.add-apps-page .add_apps_left, .add-apps-page .add_apps_right{ width:100%; display:inline-block; padding: 0 0 50px;}
+.add-apps-page .add_apps_left .col-md-4.padding0{width:22%; float:left;}
+.add-apps-page .add_apps_left .col-md-8{width:78%; display:inline-block;}
+
+.add_apps_left .manually_chan {width:100% !important; float:left;}
+.add_apps_left .col-md-7.padding0 {float: left;width:100%;}
+.add_apps_left .col-md-7.padding0 section.apps_cont_box1 .col-md-5{ width:50%; float:left;} 
+
+.manually_chan .manually_chan1 {float: left;margin: 0 10px 0 0;padding: 0;width:130px;}
+.manually_chan .manually_chan2 {float: left;margin: 0;padding: 0;width: 80%;}
+
+#account-settings .col-md-12 .satting_top_title .col-md-6 .col-md-12.padding0 .col-md-2.padding0{ float:left;}
+#account-settings .col-md-12 .satting_top_title .col-md-6 .col-md-12.padding0 .padding0.fr{width:65% !important;}
+
+ul.apps-listing li {width:20%;min-height: 155px;}
+ul.apps-listing li {width:144px;}
+ul.search__top_middel li div.apps_section {float: left;width:44%;}
+ul.search__top_middel li div.price_section {float: left;text-align: right; width: 11%;}
+
+ul li .new_promotr .col-md-2.padding0 {display: inline-block; width: 98px; float:left;margin: 0 18px 0 0;}
+ul li .new_promotr .promotr_section {display: inline-block;float: left;margin: 0 0 0 1;width: 175px;}
+ul li .new_promotr .col-md-3 { color: #737373;float: left;font-size: 16px;font-weight: 400; padding: 15px 0 15px 35%; text-align: left;width: 100%;}
+
+#upgradefrm .promote_platform_bottom .tab-content #general_setting .col-md-12, #upgradefrm .promote_platform_bottom .tab-content #general_setting .col-md-6{ padding:0;}
+#upgradefrm .promote_platform_bottom .tab-content #setting .col-md-12, #upgradefrm .promote_platform_bottom .tab-content #setting .col-md-6{ padding:0 8px;}
+#upgradefrm .promote_platform_bottom .tab-content .tab-pane h3{ padding:0 !important;}
+
+#saveupperfrm{ width:100%; margin:0; display:inline-block;}
+#saveupperfrm .promote_platform_top .fl{ width:auto !important;}
+
+.tutorial_video form#updatevideofrm {padding: 0; width:100%;}
+.tutorial_tebing_top {margin: 0 auto;padding: 0;position: relative; width: 100%;}
+
+#addappfrm .col-lg-12 .col-md-12.padding0 .col-lg-12 .new_promotr {padding: 20px 0 0;width: 50%;}
+#file_logo {display: inline-block;overflow:inherit; position: relative;}
+
+
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+
+.content {padding:20px 20px 0;}
+hr{ width: 100%; display:inline-block;}
+
+body > .header .logo {width:150px;}
+body > .header .navbar {height: 80px; margin-bottom: 0;margin-left:150px;}
+
+form#upgradefrm_preview{ width:40%; float:left;}
+form#upgradefrm_preview .col-md-4{width:98%;}
+
+.form-group {display: inline-block;margin-bottom:15px; width:100%;}
+.form-group .control-label{ width:60%;}
+.form-group .col-sm-3{ width:40%;}
+
+/*.right-side section.promote-apps .col-md-8{float: left;padding: 0 0 0 3%;width: 70%;}*/
+.promote-apps .col-md-4 .iphone_platform {height:722px;padding:62px 9% 0;}
+.promote-apps .col-md-4 .iphone_platform{ background-position:39% 0;height:539px;margin:0 auto;padding:64px 26px 0 32px;width:277px;}
+.promote_platform_top {display:inline-block;padding:0 !important;width:100%;}
+
+.right-side .promote-apps .col-md-4{width:277px; /*float:left;*/ margin:0 auto; padding:0;}
+.right-side .promote-apps .col-md-4 .form-group label.col-md-4{float: left;padding:0 0 0 15px;width: 54%;}
+.right-side .promote-apps form#upgradefrm_preview {padding:0;width:277px;}
+/*.right-side .promote-apps .col-md-8{ width:40%;}*/
+
+.iphone_view {margin:0;min-height:389px;padding:0;width: 100%;}
+.thanks_but_preview {padding:6px 8px;}
+.iphone_view .view_middel_content{min-height: 246px;}
+
+#addpromotefrm .col-md-12 .col-md-5.fl.col-md-4{width:59%;}
+label.control-label, .form-group .control-label, .api-key, ul.all-apps-icon {width:100%;}
+.api-key {overflow:hidden;}
+
+/**************Support Request**********************/
+
+.support-request-top {display:inline-block;margin:0;padding:28px 0 0 0; width: 100%;}
+.support-request-top .fr.col-md-4{ width:70%; float:right;}
+.support-request-top .fr.col-md-4 .col-md-4{width:33%; margin:0 0 10px 0; float:left;}
+
+.request-date, .request-icon{color:#999;float:left;font-size:15px;}
+.request-date {width:60%;}
+.request-icon{width:40%;padding:0;}
+
+.support-request-bottom .request_top{ width:99%; display:inline-block;}
+.support-request-bottom .request_top .request-date, .support-request-bottom .request_top .request-icon{color: #999;float: left; font-size: 15px;width:50%;}
+.support-request-bottom .icon_requst_p dd {float: left;padding: 0;width: 100%;}
+/*.support-request-bottom .request_top .request-icon{color: #999;float: left; margin:0px 0 0 0;font-size: 15px;width: 50%;}*/
+
+.icon_requst_p {display:inline-block; padding: 20px 15px;}
+.add_apps_bottom {padding:20px 0 0 !important; text-align: right;width:auto;}
+/*.support-request-bottom .col-md-12 .col-md-6{float: left;padding: 0; width: 50% !important;}
+form#setfrm #settings .panel-body .col-sm-5{ width:100% !important;}
+form#setfrm #settings .row .col-sm-5{ width:50% !important;}*/
+/*.center_align .center_a .question_box{ width:auto !important;}
+.arrow1 { margin: 144px 25px 0; transform: rotate(-180deg);vertical-align: middle;}
+*/
+form#setfrm .panel-body{ padding:15px 0;}
+form#setfrm .panel-body .col-sm-5{ width:50%; padding:0;}
+.col-sm-3.col-md-3.col-lg-3 .form-group label.control-label{ width:auto;}
+.features_apps {min-height: 300px;width: 32.5%;}
+
+.apps_cont_box2 .col-sm-9.col-md-9.col-lg-9, .apps_cont_box2 .col-sm-3.col-md-3.col-lg-3 .form-group .col-sm-8, .apps_cont_box2 .col-sm-3.col-md-3.col-lg-3, .apps_cont_box2 
+.apps_cont_box2 .col-sm-3.col-md-3.col-lg-3{float:right;}
+.apps_cont_box2 .col-sm-3.col-md-3.col-lg-3 .form-group label.control-label{ float:left;}
+.app__img {margin: 0 10px 0 0;padding: 0;width: 130px;}
+
+#addappfrm .col-lg-12 .col-md-12.padding0 .col-lg-12 .new_promotr {min-height: 290px;}
+#addappfrm .col-lg-12 .col-md-12.padding0 .col-lg-12 .new_promotr[style="width:10%!important"] {width:50% !important; }
+
+.satting_top_title .col-md-6{float: left;width: 50%;}
+#account-settings .satting_top_title .col-md-6 .promote_platform_top {display: inline-block;padding: 0;width: 84%;}
+.satting_top_title, .search__list, ul.search__top_middel{ padding:0;}
+
+#new-add-apps .company_name .col-md-2.padding0.fl .col-md-12 {padding:28px 0 0 !important;display:inline-block;}
+#new-add-apps .company_name .col-md-2.padding0.fl {float:left;width:24%;}
+
+label.control-label {color:#999;font-size:15px !important;line-height:28px;}
+.company_name .col-md-5 {float:right;margin:0 auto;padding:23px 0;width:76% !important;}
+.company_name {margin: 0 auto;padding: 50px 0;width:500px;}
+
+#document .document-left {border-right:1px solid #eee;color:#333;display:block;height:100%;left:0;margin:0; padding: 0 0 0 30px; position: fixed; top: 0; width: 296px;}
+/*#document .document-right{display:inline-block;margin: 0 0 5% 305px;padding: 2% 0 0; width:680px;}*/
+#document .document-right #content section, #document .document-right #content section p, #document .document-right #content section img{ width:100%; display:inline-block;}
+#document .document-left {border-right: 1px solid #eee;color: #333;display: block;height: 100%;left: 0; margin: 0;padding: 0 0 0 30px; position:fixed; top: 0;width:250px;}
+
+ul.apps-listing li{margin: 0 3.5% 10px 0;}
+ul.deta_table_menu {display: inline-block;list-style:none;margin: 0 auto;padding: 0; text-align: center;width: 100%;}
+ul.analytics_top li {display: inline-block;list-style:none;margin: 0;padding: 0;text-align: center;width: 24.5%;}
+ul.analytics_top li a {display: inline-block; margin: 0;width: 100%; text-align:center;}
+ul.analytics_top li a:hover, ul.analytics_top li a.active {border-bottom: 2px solid #00cccc;display: inline-block;margin: 0 0 -2px;width: 100%;}
+
+.doc_left #navigation-menu ul li a {color: #333;display: inline-block;font-size: 13px;padding: 5px 15px;width: 100%;}
+.doc_left #navigation-menu ul li a.mPS2id-highlight-first {background:#eee;color:#00cccc;font-size: 13px; width:100%;}
+
+.col-md-12.padding0 .col-md-3, form#upgradefrm .col-md-12 .row .col-md-6 .col-md-12, .promote_platform_bottom #setting .col-md-12 .row .col-md-6.padding0 .col-md-12.padding0 .col-md-6 .col-md-12, .promote_platform_bottom #setting .col-md-12 .row .col-md-6.padding0 .col-md-12.padding0 .col-md-6 .col-sm-10{display:inline-block;width:100%;}
+
+
+.promote_platform_bottom #general_setting .col-md-6 .col-sm-10.padding0, .promote_platform_bottom #setting .col-md-12 .row .col-md-12 .col-md-6.padding0 .upgrade_button_box .col-md-11.padding0 
+.promote_platform_bottom #general_setting .col-md-6 .col-sm-8, .promote_platform_bottom #setting .col-md-12 .row .col-md-6.padding0 .col-md-12.padding0 .col-md-6{display:inline-block; width:100% !important; padding:0;}
+.promote_platform_bottom #setting .col-md-12 .row .col-md-6.padding0 .col-md-12.padding0{display:inline-block;width:100%;padding:0 15px;}
+.promote_platform_bottom #setting .col-md-12 .row .col-md-12 .col-md-6.padding0 .upgrade_button_box .col-md-11.padding0 .col-md-12.padding0 .col-sm-9{display:inline-block;width:100%;padding:0;}
+.right-side .promote-apps form#upgradefrm_preview {padding: 0;width:277px !important;}
+
+.upgrade_button_box .upgrade_button_t {margin:-32px 0 0; display:block;}
+.upgrade_button_box {width: 99%;}
+.upgradefrm_new {margin: -10px auto 0;padding: 0 15px;}
+
+form#upgradefrm .promote_platform_bottom .tab-content .tab-pane .col-md-6 dd.fl.col-md-12.padding0{ margin:0 !important;}
+form#upgradefrm .promote_platform_bottom .tab-content .tab-pane .col-md-6 dd.col-md-12{ width:100%; display:inline-block; margin:0 0 10px 0;}
+
+ul.search__top_middel li {padding: 25px 0px;}
+ul#ui-id-1 {width:380px !important;}
+.appnalytics_section label.control-label{width:80%;}
+
+.manually_chan .manually_chan1 {margin: 0 30px 0 0;padding: 0;width: 115px;}
+.manually_chan .manually_chan2 {margin: 0;padding: 0;width: 60%;}
+.manually_chan1 .file_logo .app__img{height: 265px;}
+.manually_chan1 .file_logo .edit__{ height:auto;}
+
+.add-files {height: 90px;width: 90px;}
+.add_apps_left .col-md-2.padding0 .col-md-12.padding0 #file_logo .upload_img {min-height: 90px;width: 90px;}
+.add_apps_left .col-md-2.padding0 .col-md-12.padding0 #file_logo .upload_img img {height: 90px;}
+.manually_chan .manually_chan2 #file_logo .upload_img:hover .over_img i {padding: 35px 0;}
+
+.promote_platform_bottom{ padding:30px 0 0 0px;}
+
+}
+
+
+@media(min-width:1024px){
+
+form#upgradefrm_preview {float: left;width: 335px !important;}
+.right-side section.promote-apps .col-md-8{float: left;padding: 0 0 0 1%;}
+.right-side section.promote-apps .col-md-8 { float: left;padding: 0 0 0 24px;}
+.mainbox .row .center_align .center_a {margin:0 auto;width: 950px;}
+/*.center_align .center_a .col-xs-12{ width:auto;}
+.center_align .center_a .col-xs-12 .form-group{width:50%;}*/
+.center_align .center_a .question_box{ width:auto !important;}
+.arrow1 { margin: 144px 25px 0;transform: rotate(-180deg);vertical-align: middle;}
+.promote-apps .col-md-8 {display: block;width: 71.2%;}
+/*.add-apps-page .add_apps_left{position: absolute;width:510px; z-index: 999;}
+.add-apps-page .add_apps_right{padding: 0 0 0 510px;width: 100%; z-index:0; min-height:500px;}*/
+.add-apps-page .add_apps_right .apps_cont_box2 .fr.col-md-4{ width:auto;}
+.apps_cont_box1 .cl.height3{ height:0;}
+
+#file_logos {float: left;min-height: 107px;width: 134px !important;}
+.screenshot .com-md-4{float: right;width: 88px;}
+
+.iphone_platform_other { height: 398px;}
+.iphone_platform_other div.platform_animation_img {height: 245px;}	
+
+#new-add-apps .company_name .col-md-2.padding0.fl .col-md-12{padding:28px 0 0 0 !important;}
+.tab-pane.active {display: inline-block;}
+.tab-content, #promotional, .add_apps_top form#addpromotefrm{ width:100%; margin:0; float:left;}
+.screenshot {margin: 0;width: 256px;}
+
+.manually_chan .manually_chan2 #file_logo{ margin:0 0 22px 0;}
+#saveupperfrm .promote_platform_top {display: inline-block;padding: 0 0 0 0px !important;}
+
+
+ul#myTab.tutorial_teb li {margin: 0 61px;}
+.tutorial_tebing_top .video_check {margin:44px 0 0 17%;}
+.tutorial_tebing_top .img_check {margin:44px 0 0 51%;}
+.tutorial_tebing_top .faq_check {margin:44px 0 0 85%;}
+
+}
+
+@media(max-width:1024px){
+.add_apps_left .col-md-7.padding0 section.apps_cont_box1 .cl.height3{ height:10px !important;}
+}
+
+
+@media(min-width:1024px) and (max-width:1280px){
+#document .document-left {border-right: 1px solid #eee;color: #333;display: block;height: 100%;left: 0;margin: 0; padding: 0 0 0 30px; position: fixed; top: 0; width: 296px;}
+#document .document-right{display:inline-block;margin: 0 0 5% 305px;padding: 2% 0 0; width:71%;}
+#document .document-right #content section, #document .document-right #content section p{ width:100%; display:inline-block;}
+
+.select_app_img ul li img {height:auto; width:180px;}
+.select_app_img ul div.file_logo {float: left;height:322px;margin:0;overflow: hidden; padding: 0; position: relative;width: 180px !important;}
+.select_app_img ul div.file_logo span.add-files{background-color:#f4f4f4;border:1px solid #e5e5e5;border-radius: 0;font-size: 12px;margin: 0;min-height: 322px;padding: 76% 0;width: 180px;}
+.select_app_img ul li.active div {height: 17%;}
+
+ul.apps-listing li{margin: 0 3.7% 10px 0;}
+
+}
+
+@media(min-width:1280px) and (max-width:5000px){
+
+form#upgradefrm_preview {float: left;width: 335px !important;}
+
+.right-side .promote-apps .col-md-4, #upgradefrm_preview{float:left;margin:0 auto; padding:0; position:absolute; width:345px;z-index:999;}
+.right-side section.promote-apps .col-md-8 {width:100% !important; padding: 0 0 0 345px; z-index:0;}
+
+
+.apps_cont_box2 .col-sm-9.col-md-9.col-lg-9, .apps_cont_box2 .col-sm-3.col-md-3.col-lg-3 .form-group .col-sm-8, .apps_cont_box2 .col-sm-3.col-md-3.col-lg-3, .apps_cont_box2 .col-sm-3.col-md-3.col-lg-3 .form-group label.control-label{ width:auto;}
+
+.apps_cont_box2 .col-sm-3.col-md-3.col-lg-3{float:right;}
+.apps_cont_box2 .col-sm-3.col-md-3.col-lg-3 .form-group label.control-label, #account-settings .col-md-12 .satting_top_title .col-md-6 .col-md-12.padding0 .col-md-2.padding0{ float:left;}
+
+#addpromotefrm .col-md-12 .col-md-5.fr.screenshot {width: 40%;}
+.iphone_platform_other {height: 487px;}
+#account-settings .col-md-12 .satting_top_title .col-md-6 .col-md-12.padding0 .padding0.fr{width:75% !important;}
+#file_logo {display:inline-block;overflow:inherit; position: relative;}
+#new-add-apps .company_name .col-md-2.padding0.fl .col-md-12{padding:28px 0 0 0 !important;}
+
+.manually_chan .manually_chan2 #file_logo{ margin:0 0 10px 0;}
+.apps_cont_box1 .cl.height3 { height: 30px;}
+
+ul#myTab.tutorial_teb li {margin: 0 60px;}
+
+.tutorial_tebing_top .video_check {margin:44px 0 0 17%;}
+.tutorial_tebing_top .img_check {margin:44px 0 0 51%;}
+.tutorial_tebing_top .faq_check {margin:44px 0 0 85%;}
+
+}
+	
+	/* HiDPI support */
+@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+.icheckbox_square-red,
+.iradio_square-red {background-image: url(minimal@2x.png); -webkit-background-size: 200px 20px;background-size: 200px 20px;}
+
+form#upgradefrm_preview {float: left;width: 29% !important;}
+select.select_apps { width:100%;}
+
+.right-side section.promote-apps .col-md-8 {width:70% !important; padding: 0 0 0 1%;}
+.right-side .promote-apps .col-md-4 {float: left;margin: 0 auto; padding: 0; position: absolute;  width: 345px;z-index:999;}
+.right-side section.promote-apps .col-md-8 {width:100% !important; padding: 0 0 0 345px; z-index:0;}
+}
+
+	

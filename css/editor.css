@@ -1,0 +1,15 @@
+/* 
+    Document   : editor
+    Created on : 2 Jun, 2015, 1:35:00 PM
+    Author     : vincet
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.textarea{
+    font-family: Arial!important;
+}

@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Backbone bits</title>
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,500,700" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width">
+        <meta content="IE=edge, chrome=1" http-equiv="X-UA-Compatible">
+        <!-- Open Graph tags -->
+        <meta property="og:title" content="Backbone bits">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="Doc Ver 1.0">
+
+        <link href="assets/images/favicon.png" rel="shortcut icon">
+        <style>
+            .active{
+                color:#666!important;
+                font-weight: bold!important;
+            }
+            .sidebar__item--heading a{
+                font-weight: normal;
+            }
+            .leftanchor{
+                cursor: pointer;
+            }
+            ul.list-unstyled{
+                display:none;
+            }
+        </style>    
+    </head>
+    <body>
+        <aside class="sidebar" role="nav">
+            <div class="sidebar__header" style="text-align: center;height: 70px;padding:15px;">
+                <img alt="" src="assets/images/login-logo.png" width="150" >
+            </div>
+            <div class="sidebar__body">
+                <!--<button type="button" class="btn-toggle js-btn-toggle" data-alt="Open all">Close all</button>-->
+                <p class="sidebar__item sidebar__item--heading" data-slug="get-started"><a href="#get-started" id="getstartedlink">Get Started</a></p>
+                <div>
+                    <p class="sidebar__item sidebar__item--sub-heading leftanchor is-collapsed">
+                        <a href="#apps" class="">Start Configure Your Apps</a>
+                    </p>
+                    <ul class="list-unstyled">
+                        <li class="sidebar__item sassdoc__item" data-group="add-apps" data-name="add-apps" data-type=""><a href="#add-apps--add-apps">Add Apps</a></li>
+                        <li class="sidebar__item sassdoc__item" data-group="app-info" data-name="app-info" data-type=""><a href="#app-info--app-info">App Info</a></li>
+                        <li class="sidebar__item sassdoc__item" data-group="app-settings" data-name="app-settings" data-type=""><a href="#app-settings--app-settings">App Settings</a></li>
+                        <li class="sidebar__item sassdoc__item" data-group="app-notification" data-name="app-notification" data-type=""><a href="#app-notification--app-notification">App Notification</a></li>
+                    </ul>
+                    <p class="sidebar__item sidebar__item--sub-heading leftanchor is-collapsed"><a href="#help">Help</a></p>
+                    <ul class="list-unstyled">
+                        <li class="sidebar__item sassdoc__item" data-group="help-add" data-name="help-add" data-type=""><a href="#help-add--help-add">Add Help</a></li>                        
+                    </ul>
+                    <p class="sidebar__item sidebar__item--sub-heading leftanchor is-collapsed"><a href="#respond">Respond</a></p>
+                    <ul class="list-unstyled">
+                        <li class="sidebar__item sassdoc__item" data-group="respond-list" data-name="respond-list" data-type=""><a href="#respond-list--respond-list">Respond List</a></li>
+                        <li class="sidebar__item sassdoc__item" data-group="respond-detail" data-name="respond-detail" data-type=""><a href="#respond-detail--respond-detail">Respond Details</a></li>
+                    </ul>
+                    <p class="sidebar__item sidebar__item--sub-heading leftanchor is-collapsed"><a href="#settings">Settings</a></p>
+                    <ul class="list-unstyled">
+                        <li class="sidebar__item sassdoc__item" data-group="settings-menu" data-name="settings-menu" data-type=""><a href="#settings-menu--settings-menu">Setting Details</a></li>                        
+                    </ul>
+                    <p class="sidebar__item sidebar__item--sub-heading leftanchor is-collapsed"><a href="javascript:void(0);">SDK Configuration</a></p>
+                    <ul class="list-unstyled">
+                        <li class="sidebar__item sassdoc__item" data-group="ios-menu" data-name="ios-menu" data-type=""><a href="https://github.com/Intuz-production/Backbone-bits-iOS">iOS</a></li>
+                        <li class="sidebar__item sassdoc__item" data-group="android-menu" data-name="android-menu" data-type=""><a href="https://github.com/Intuz-production/Backbone-bits-Android">Android</a></li>
+                    </ul>
+                </div>
+            </div>
+        </aside>
+        <article class="main" role="main">
+            <header class="header" role="banner">
+                <div class="container">
+                    <div class="sassdoc__searchbar searchbar">
+                        <label for="js-search-input" class="visually-hidden">Search</label>
+                        <div class="searchbar__form" id="js-search">
+                            <input name="search" type="search" class="searchbar__field" autocomplete="off" autofocus id="js-search-input" placeholder="Search">
+                            <ul class="searchbar__suggestions" id="js-search-suggestions"></ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="main__section">
+                <h1 class="main__heading" id="get-started">
+                    <div class="container">Get Started</div>
+                </h1>
+                <section class="main__sub-section" id="apps">
+
+                    <div class="container"><p>Backone is an amazing tool to pitch your app with the major mobile platforms that is effective for both new and existing apps. Slice and dice your audience from our dashboard analytics with live metrics. </p>
+
+                        This documentation will help you to add and configure your apps with Backbone bits tool. You can gain deep insight and easily promote, prompt, respond all of your apps very quickly and with little effort using Backbone bits's iOS and Android SDK. Moreover, you can add FAQ, Videos, Images for the guidance of the app using help module. The SDK integration process is designed to be as easy as possible with a basic setup complete in under 5 minutes.
+
+                    </div>
+
+                    <section class="main__item container item" id="add-apps--add-apps">
+                        <h3 class="item__heading"><a class="item__name" href="#add-apps--add-apps">Add Apps</a></h3>
+                        <div class="item__code-wrapper">
+
+                        </div>
+                        <!--<h3 class="item__sub-heading">Example</h3>-->
+                        <div class="item__description">
+                            <p>After registering on Backbone bits, it enables you to adding the app while you only introduce company name and suggest automatically your apps. You can also add manually on the screen and simply hitting the save.</p>
+                            <p>Backbone bits allows two different ways to add your apps inside the system: </p>
+
+                            <p><h3 class="item__sub-heading">Search with Developer Name / App Name (Only Available for iOS)</h3></p>
+
+
+                            <ul>
+                                <li> Select your preferred platform and start searching with Developer Name / App Name </li>
+                                <li> Backbone bits will suggest company name from the app store based on your inputs </li>
+                                <li> Choose your desired company name and Backbone bits will automatically fetch all the apps listed under that company </li>
+                            </ul>
+
+                            <!-- <h3 class="item__sub-heading">Example</h3>-->
+                            <pre class="example__code  language-scss"><img alt="Add Apps" src="assets/images/add-apps.png"></pre>
+
+                            <p><h3 class="item__sub-heading">Add app Manually</h3></p>
+                            <ul>
+                                <li> Select your preferred platform and start adding required fields </li>
+                                <li> Hit on save button to save app </li>                                
+                            </ul>
+
+                            <!-- <h3 class="item__sub-heading">Example</h3>-->
+                            <pre class="example__code  language-scss"><img alt="Add app Manually" src="assets/images/apps-manually.gif"></pre>
+
+
+                        </div>
+
+                    </section>
+                    <section class="main__item container item" id="app-info--app-info">
+                        <h3 class="item__heading"><a class="item__name" href="#app-info--app-info">App Info</a></h3>
+                        <div class="item__code-wrapper">
+
+                        </div>
+                        <!--<h3 class="item__sub-heading">Example</h3>-->
+                        <div class="item__description">
+                            <p>Select any one app from the apps list. It will show details screen of the app. Moreover, user can refresh the app for getting latest data of app from the apple store by clicking on it. You can update logo, company logo and app images and hit save and publish button to save changes.</p>
+                        </div>
+
+                        <!-- <h3 class="item__sub-heading">Example</h3>-->
+                        <pre class="example__code  language-scss"><img alt="App Detail" src="assets/images/app-detail.jpg"></pre>
+                    </section>
+                    <section class="main__item container item" id="app-settings--app-settings">
+                        <h3 class="item__heading"><a class="item__name" href="#app-settings--app-settings">App Settings</a></h3>
+                        <div class="item__code-wrapper">
+
+                        </div>
+                        <!--<h3 class="item__sub-heading">Example</h3>-->
+                        <div class="item__description">
+                            <p>App settings screen will display features list of selected app. As an admin you can enable / disable features of the selected app. Moreover, at below you can allocate work to one of the support agent by clicking on user.</p>
+                        </div>
+
+                        <!-- <h3 class="item__sub-heading">Example</h3>-->
+
+                    </section>
+                    <section class="main__item container item" id="app-notification--app-notification">
+                        <h3 class="item__heading"><a class="item__name" href="#app-notification--app-notification">App Notification</a></h3>
+                        <div class="item__code-wrapper">
+
+                        </div>
+                        <!--<h3 class="item__sub-heading">Example</h3>-->
+                        <div class="item__description">
+                            <p>App notification will allow you to enable / disable notification. If app is iOS then it will ask you to add passphrase & .pem file of Development and production. If app is android then it will ask you to add api key. Moreover, you can set Auto Review message which will be displayed in Respond section.</p>
+                        </div>
+
+                        <!-- <h3 class="item__sub-heading">Example</h3>-->
+                        <pre class="example__code  language-scss"><img alt="App Notification" src="assets/images/app-notification.jpg"></pre>
+                    </section>
+                </section>
+                <!----Help----------------->
+                <section class="main__sub-section" id="help">
+                    <section class="main__item container item" id="help-add--help-add">
+                        <h3 class="item__heading"><a class="item__name" href="#help-add--help-add">Add Help</a></h3>
+                        <div class="item__code-wrapper">
+
+                        </div>
+                        <!--<h3 class="item__sub-heading">Example</h3>-->
+                        <div class="item__description">
+                            <p>Help feature will allow you to add FAQs of current version. Moreover you can upload videos and images. Following will you to add help successfully.</p>
+
+                            <ul>
+                                <li>Select "+" to add version</li>
+                                <li>Select live version and click on "Add FAQ" button to add FAQ</li>
+                                <li>Click on "Video" tab and add video of youtube, viemo or manual and hit save & publish</li>
+                                <li>Click on "Images" and add images with animation features and click on save and publish</li>
+                                <li>To view previous version click on previous version. Moreover, you can view other past versions data from archive list</li>
+                            </ul>
+                            <!-- <h3 class="item__sub-heading">Example</h3>-->
+                            <pre class="example__code  language-scss"><img alt="Help" title="Help" src="assets/images/faq.png"></pre>
+
+                        </div>
+                    </section>
+                </section>
+                <!----Respond----------------->
+                <section class="main__sub-section" id="respond">
+                    <section class="main__item container item" id="respond-list--respond-list">
+                        <h3 class="item__heading"><a class="item__name" href="#respond-list--respond-list">Respond List</a></h3>
+                        <div class="item__code-wrapper">
+
+                        </div>
+                        <!--<h3 class="item__sub-heading">Example</h3>-->
+                        <div class="item__description">
+                            <p>Respond list will show the list of support messages of all apps generated by the app user. You will be able to allocate the work to any one of the support agent who can respond to the app users message. You can search messages by using search parameters. Search will help you to get result at very minified level.</p>
+
+                            <!-- <h3 class="item__sub-heading">Example</h3>-->
+                            <pre class="example__code  language-scss"><img alt="Respond List" title="Respond List" src="assets/images/respond-list.gif"></pre>
+
+                        </div>
+                    </section>
+                    <section class="main__item container item" id="respond-detail--respond-detail">
+                        <h3 class="item__heading"><a class="item__name" href="#respond-detail--respond-detail">Respond Details</a></h3>
+                        <div class="item__code-wrapper">
+
+                        </div>
+                        <!--<h3 class="item__sub-heading">Example</h3>-->
+                        <div class="item__description">
+                            <p>Respond Detail screen will allow agent / admin to send reply to the app user messages. Moreover, agent / admin can save messages as canned response which can be used later in other response. Agent / admin will also have ability of close the ticket and can ask for review to the app user.</p>
+
+                            <!-- <h3 class="item__sub-heading">Example</h3>-->
+
+                        </div>
+                    </section>
+                </section>
+                <!----Settings----------------->
+                <section class="main__sub-section" id="settings">
+                    <section class="main__item container item" id="settings-menu--settings-menu">
+                        <h3 class="item__heading"><a class="item__name" href="#settings-menu--settings-menu">Setting Details</a></h3>
+                        <div class="item__code-wrapper">
+
+                        </div>
+                        <!--<h3 class="item__sub-heading">Example</h3>-->
+                        <div class="item__description">
+                            <p>Settings section will allow you for basic setup of the apps.</p>
+                            <ul>
+                                <li>You can update your profile details by clicking on profile link.</li>
+                                <li>As mentioned in <a href="#apps"><code>apps section</code></a>, apps will allow you to add and update the apps.</li>
+                                <li>Moreover, you can create agent with any one of the available roles (i.e. Technical, Finance, Support, Marketing, Admin)</li>
+                                <li>In access level menu you will be able to view the access given to each roles.</li>
+                                <li>Activity log will track down each logs details of the app.</li>
+                                <li>General setting feature will allow you to deactivate any of the five features </li>
+                            </ul>
+                            <!-- <h3 class="item__sub-heading">Example</h3>-->
+
+
+                        </div>
+                    </section>
+
+                </section>
+                </section>
+            </section>
+            <footer class="footer" role="contentinfo">
+                <div class="container">
+                    <div class="footer__project-info project-info">
+                        <!-- Name and URL --><span class="project-info__name">&copy; <script>document.write(new Date().getFullYear())</script> ReasonX, Inc. | Santa Clara, CA</span><!-- Version --><!-- License -->
+                    </div>
+                    <!--<a class="footer__watermark" href="http://bckbn.io"><img src="assets/images/logo_light_inline.svg" alt="SassDoc Logo"></a>-->
+                </div>
+            </footer>
+        </article>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script><script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script><script src="assets/js/main.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $(document).on("scroll", onScroll);
+
+                var scrollPosition = $(document).scrollTop();
+                scrollPosition = scrollPosition + 100;
+
+                if (scrollPosition > 300) {
+                    $('.sidebar__body a').each(function () {
+                        var currentLink = $(this);
+                        var refElement = $(currentLink.attr("href"));
+                        if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
+                            currentLink.addClass("active");
+                        } else {
+                            currentLink.removeClass("active");
+                        }
+                    });
+
+                    var prelink = $(".leftanchor").find("a.active").parent();
+                    $(prelink).removeClass("is-collapsed");
+                    $(prelink).next().show();
+                } 
+                else {
+                    $('.sidebar__body a').removeClass("active");
+                    $("#getstartedlink").addClass("active");
+                }
+            });
+
+            function onScroll(event) {
+                var scrollPosition = $(document).scrollTop();
+                scrollPosition = scrollPosition + 100;
+                if (scrollPosition > 300) {
+                    $('.sidebar__body a').each(function () {
+                        var currentLink = $(this);
+                        var refElement = $(currentLink.attr("href"));
+                        if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
+                            currentLink.addClass("active");
+                            var prelink = currentLink.parent();
+                            console.log(prelink);
+
+                            if ($(prelink).hasClass("leftanchor")) {
+                                $('.leftanchor').removeClass("is-collapsed");
+                                $(".leftanchor").addClass("is-collapsed");
+                                $(".list-unstyled").hide();
+                                $(prelink).removeClass("is-collapsed");
+                                $(prelink).next().show();
+                            }
+                        } 
+                        else {
+                            currentLink.removeClass("active");
+                        }
+                    });
+                } 
+                else {
+                    $('.sidebar__body a').removeClass("active");
+                    $("#getstartedlink").addClass("active");
+                }
+            }
+
+            $('.leftanchor').click(function () {
+                if ($(this).hasClass("is-collapsed")) {
+                    $('.leftanchor').removeClass("is-collapsed");
+                    $(".leftanchor").addClass("is-collapsed");
+                    $(".list-unstyled").hide();
+                    $(this).removeClass("is-collapsed");
+                    $(this).next().slideDown("slow");
+                } 
+                else {
+                    $(this).addClass("is-collapsed");
+                    $(this).next().toggle();
+                }
+            });
+        </script>
+    </body>
+</html>

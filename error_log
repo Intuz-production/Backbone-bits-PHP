@@ -1,0 +1,10 @@
+[21-Dec-2017 11:23:45 UTC] PHP Fatal error:  Call to undefined method general::add_more_app_for_new_app() in /home/v444/public_html/inhouse/backbone/backbonebits/cladmin/ajax.php on line 2256
+[27-Dec-2017 06:44:23 UTC] PHP Fatal error:  Call to undefined method general::add_more_app_to_new_app() in /home/v444/public_html/inhouse/backbone/backbonebits/cladmin/ajax.php on line 2170
+[27-Dec-2017 12:29:18 UTC] PHP Warning:  Division by zero in /home/v444/public_html/inhouse/backbone/backbonebits/cladmin/memimages.php on line 17
+[27-Dec-2017 12:29:18 UTC] PHP Warning:  Division by zero in /home/v444/public_html/inhouse/backbone/backbonebits/cladmin/memimages.php on line 17
+[27-Dec-2017 12:29:56 UTC] PHP Warning:  Division by zero in /home/v444/public_html/inhouse/backbone/backbonebits/cladmin/memimages.php on line 17
+[27-Dec-2017 12:29:56 UTC] PHP Warning:  Division by zero in /home/v444/public_html/inhouse/backbone/backbonebits/cladmin/memimages.php on line 17
+[27-Dec-2017 12:30:09 UTC] PHP Warning:  Division by zero in /home/v444/public_html/inhouse/backbone/backbonebits/cladmin/memimages.php on line 17
+[27-Dec-2017 12:30:09 UTC] PHP Warning:  Division by zero in /home/v444/public_html/inhouse/backbone/backbonebits/cladmin/memimages.php on line 17
+[27-Dec-2017 12:31:00 UTC] PHP Warning:  Division by zero in /home/v444/public_html/inhouse/backbone/backbonebits/cladmin/memimages.php on line 17
+[27-Dec-2017 12:31:00 UTC] PHP Warning:  Division by zero in /home/v444/public_html/inhouse/backbone/backbonebits/cladmin/memimages.php on line 17

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "raulr/google-play-scraper": "^0.1.1"
+    }
+}

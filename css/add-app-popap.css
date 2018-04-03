@@ -1,0 +1,123 @@
+.dialog,
+.dialog__overlay {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+
+.dialog {
+	position: fixed;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	pointer-events: none;
+	
+}
+
+.dialog__overlay {
+	position: absolute;
+	z-index: 1;
+	background: rgba(55, 58, 71, 0.9);
+	opacity: 0;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+	-webkit-backface-visibility: hidden;
+	
+}
+
+.dialog--open .dialog__overlay {
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.dialog__content {
+	width:100%;
+	max-width: 800px;
+	min-width: 290px;
+	background: #fff;
+	padding:0;
+	text-align: center;
+	position: relative;
+	z-index: 5;
+	opacity: 0;
+	border-radius:5px;
+}
+
+.dialog--open .dialog__content {
+	pointer-events: auto;
+}
+
+/* Content */
+.dialog h2 {
+	margin: 0;
+	font-weight: 400;
+	font-size: 2em;
+	padding: 0 0 2em;
+	margin: 0;
+}
+
+
+.dialog__overlay {
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+.dialog.dialog--open .dialog__content,
+.dialog.dialog--close .dialog__content {
+	-webkit-animation-duration: 0.4s;
+	animation-duration: 0.4s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.dialog.dialog--open .dialog__content {
+	-webkit-animation-name: anim-open;
+	animation-name: anim-open;
+	-webkit-animation-timing-function: cubic-bezier(0.6,0,0.4,1);
+	animation-timing-function: cubic-bezier(0.6,0,0.4,1);
+}
+
+.dialog.dialog--close .dialog__content {
+	-webkit-animation-name: anim-close;
+	animation-name: anim-close;
+}
+
+@-webkit-keyframes anim-open {
+	0% { opacity: 0; -webkit-transform: scale3d(0, 0, 1); }
+	100% { opacity: 1; -webkit-transform: scale3d(1, 1, 1); }
+}
+
+@keyframes anim-open {
+	0% { opacity: 0; -webkit-transform: scale3d(0, 0, 1); transform: scale3d(0, 0, 1); }
+	100% { opacity: 1; -webkit-transform: scale3d(1, 1, 1); transform: scale3d(1, 1, 1); }
+}
+
+@-webkit-keyframes anim-close {
+	0% { opacity: 1; }
+	100% { opacity: 0; -webkit-transform: scale3d(0.5, 0.5, 1); }
+}
+
+@keyframes anim-close {
+	0% { opacity: 1; }
+	100% { opacity: 0; -webkit-transform: scale3d(0.5, 0.5, 1); transform: scale3d(0.5, 0.5, 1); }
+}
+
+.popap-header {background:#f8f8f8; height: 75px; border-radius: 5px 5px 0 0;}
+.popap-header h3{ width:95%; font-size:30px; color:#252525; font-weight:300; text-align:center; padding:20px 0;}
+.popap-header button{background-color:transparent;background-image: url(../img/spirit_img.png);background-position: -62px -349px;background-repeat: no-repeat;border: medium none;
+    height: 32px;margin: 2px 0 0;width: 36px;}
+.popap-footer{border-radius: 0 0 5px 5px; display: inline-block;padding: 10px 15px 0px;width: 100%;}
+.popap-content{ padding:15px; text-align:left;}
+
+.communicatr-detail_pupep.dialog__content{ max-width:600px !important;}
+.communicatr-detail_pupep .popap-header{ background:#fff !important; height:auto !important;}
+.communicatr-detail_pupep .popap-header button{background-color:transparent;background-image: url(../img/spirit_img.png);background-position: -62px -349px;background-repeat: no-repeat;border: medium none;
+    height: 32px;margin: 2px 0 0;width: 36px;}
+
+
+
