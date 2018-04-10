@@ -1,5 +1,5 @@
 <h1>Introduction</h1>
-Backbone bits is an amazing tool to pitch your app to the major mobile platforms that are effective for both new and existing apps. Slice and dice your audience from our dashboard analytics with live metrics. This documentation will help you to add and configure your apps with Backbone bits tool. You can gain deep insight and easily respond all of your apps very quickly and with little effort using Backbone bits's iOS and Android SDK. Moreover, you can add FAQ, Videos, Images for the guidance of the app using help module. The SDK integration process is designed to be as easy as possible with a basic setup complete in under 5 minutes.
+Backbone bits is an amazing tool to gain deep insight and easily respond all of your apps very quickly and with little effort.This documentation will help you to add and configure your apps with Backbone bits tool. Moreover, you can add FAQ, Videos, Images for the guidance of the app using help module.
 
 <br/>
 <h1>Features</h1>
@@ -23,9 +23,10 @@ git clone https://github.com/Intuz-production/Backbone-bits-PHP
 cd Backbone-bits-PHP
 ```
 <h4>Setup</h4>
-1. Create a database and import a database from **DB_Schema** root folder.
-2. Configure new database credentials in the system inside "configuration.php" file located at Backbone-bits-PHP/config/ folder and inside "service-configuration.php" file located at Backbone-bits-PHP/services/ folder.
-3. Use username/password as admin/admin123 to login.
+
+1.  Create a database and import a database from <b>DB_Schema</b> root folder.
+2.   Configure new database credentials in the system inside "configuration.php" file located at Backbone-bits-PHP/config/ folder and inside "service-configuration.php" file located at Backbone-bits-PHP/services/ folder.
+3.   Use username/password as admin/admin123 to login.
 
 <h4>Note</h4>
 After successful login, when you add any IOS/Android App, go to Help section of App and add Version number (it should be same as Mobile App Version). Version Number is compulsory for displaying Help FAQs, Images and Videos data in Mobile App SDK.
