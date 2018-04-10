@@ -1,5 +1,5 @@
 <h1>Introduction</h1>
-Backbone bits is an amazing tool to gain deep insight and easily respond all of your apps very quickly and with little effort. This documentation will help you to add and configure your apps with Backbone bits tool. Moreover, you can add FAQ, Videos, Images for the guidance of the app using help module.
+Backbone bits is an amazing tool to gain deep insight and easily respond to feedback of your users very quickly and with little effort for all of your apps. This documentation will help you to add and configure your apps with Backbone bits tool. Moreover, you can add FAQ, Videos, Images for the guidance of the app using help module.
 
 <br/>
 <h1>Features</h1>
