@@ -12,7 +12,7 @@
 class general {
 
     var $currency_symbol = "$";
-    var $site_path = "http://".$_SERVER['SERVER_NAME']."/Backbone-bits-PHP/";
+    var $site_path = SITE_URL;
     var $mcrypt_iv = '12345678abcdefgh';
     var $salt = '123456789';
 

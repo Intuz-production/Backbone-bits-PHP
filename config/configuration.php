@@ -12,7 +12,7 @@
 @session_start();
 @ob_start("ob_gzhandler");
 @ob_gzhandler();
-error_reporting(E_ERROR);
+error_reporting(E_ALL);
 
 $glob['dbhost'] = 'xxxxxxx';  // Databse Host Name
 $glob['dbusername'] = 'xxxxxxx';  // Database Username
@@ -29,7 +29,7 @@ require_once('message.php');
 
 define("INC", "inc/");
 define('CUR', "$");
-define("SITE_URL", "http://".$_SERVER['SERVER_NAME']."/Backbone-bits-PHP/");
+define("SITE_URL", "http://".$_SERVER['SERVER_NAME']."/");
 
 $temp_url = parse_url($_SERVER['PHP_SELF']);
 $dir_url = dirname($temp_url['path']);

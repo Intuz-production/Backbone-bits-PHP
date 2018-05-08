@@ -1,0 +1,54 @@
+<ifModule mod_gzip.c>
+mod_gzip_on Yes
+mod_gzip_dechunk Yes
+mod_gzip_item_include file .(html?|txt|css|js|php|pl)$
+mod_gzip_item_include handler ^cgi-script$
+mod_gzip_item_include mime ^text/.*
+mod_gzip_item_include mime ^application/x-javascript.*
+mod_gzip_item_exclude mime ^image/.*
+mod_gzip_item_exclude rspheader ^Content-Encoding:.*gzip.*
+</ifModule>
+
+RewriteEngine On
+
+DirectoryIndex index.php
+RewriteBase /
+
+Options +FollowSymlinks
+
+#redirect to .php-less link if requested directly
+#RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /(.*)\.php\ HTTP/ [NC]
+#RewriteCond %{REQUEST_FILENAME} !-d 
+#RewriteCond %{REQUEST_URI} !captcha(.*)
+#RewriteCond %{REQUEST_URI} !admin(.*)
+#RewriteCond %{REQUEST_URI} !autoCompleteCountry\.php(.*)
+#RewriteCond %{REQUEST_URI} !blog(.*)
+#RewriteRule ^(.+)\.php $1 [R=301,L]
+
+#remove trailing slash
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !autoCompleteCountry\.php(.*)
+RewriteCond %{REQUEST_URI} !blog(.*)
+RewriteCond %{REQUEST_URI} !captcha(.*)
+RewriteRule ^(.+[^/])/$ $1 [R=301,L]
+
+
+#RewriteCond %{QUERY_STRING} !="" [NC]
+RewriteCond %{REQUEST_URI} !captcha(.*)
+RewriteCond %{REQUEST_URI} !admin(.*)
+RewriteCond %{REQUEST_URI} !autoCompleteCountry\.php(.*)
+#RewriteRule ^(.*)$ $1? [R=301,L] #remove query string
+
+RewriteRule ^(.*)support-setting$ support-setting.php [L]
+
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^.]+)$ $1.php [NC,L]
+
+RewriteRule ^(.*)image$ image\.php?%{QUERY_STRING} [L]
+
+
+
+ErrorDocument 404 /
+

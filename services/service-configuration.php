@@ -11,7 +11,7 @@
 
 @session_start();
 error_reporting(1);
-define("SITE_URL", "http://".$_SERVER['SERVER_NAME']."/Backbone-bits-PHP/");
+define("SITE_URL", "http://".$_SERVER['SERVER_NAME']."/");
 define('INC', 'inc/');
 
 $glob['dbhost'] = 'xxxxxxx';  // Databse Host Name
