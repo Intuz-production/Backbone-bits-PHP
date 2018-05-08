@@ -29,7 +29,38 @@ cd Backbone-bits-PHP
 3.   Use username/password as admin/admin123 to login.
 
 <h4>Note</h4>
-After successful login, when you add any IOS/Android App, go to Help section of App and add Version number (it should be same as Mobile App Version). Version Number is compulsory for displaying Help FAQs, Images and Videos data in Mobile App SDK.
+
+1. If you are hosting single website in a server, then you have to make following changes:
+
+	i) In your Virtual Host configuration file (/etc/apache2/sites-available/000-default.conf),
+ 
+      - "MultiViews" option was enabled: ``` Options Indexes FollowSymLinks MultiViews ```
+      - You need to remove "MultiViews" option:  ``` Options Indexes FollowSymLinks ```
+      
+	ii) You don't have to add folder name in RewriteBase .htaccess rule, just put / (slash) as follows:
+ 
+      ```RewriteBase /```
+        
+  
+	iii) Also you don't have to add folder name in following both the files as ``` define("SITE_URL", "http://".$_SERVER['SERVER_NAME']."/"); ```:
+ 
+      - Backbone-bits-PHP/config/configuration.php
+      - Backbone-bits-PHP/services/service-configuration.php
+
+2. If you are hosting multiple website in a server, then you have to make following changes:
+
+	i) Add "MultiViews" option in your Virtual Host configuration file (/etc/apache2/sites-available/000-default.conf). 
+ 
+	ii) You have to add folder name in RewriteBase .htaccess rule as
+ 
+     ```RewriteBase /Backbone-bits-PHP```.
+ 
+	iii) You have to add folder name in following files as a SITE_URL constant as ```define("SITE_URL", "http://".$_SERVER['SERVER_NAME']."/Backbone-bits-PHP/"); ```:
+ 
+      - Backbone-bits-PHP/config/configuration.php
+      - Backbone-bits-PHP/services/service-configuration.php
+
+3. After successful login, when you add any IOS/Android App, go to the Help section of App and add the Version number (it should be same as Mobile App Version). Version Number is compulsory for displaying Help FAQs, Images and Videos data in Mobile App SDK.
 
 
 <h1>Bugs and Feedback</h1>
