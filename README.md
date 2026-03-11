@@ -1,4 +1,8 @@
-<h1>Introduction</h1>
+## About Intuz
+This library is maintained by [Intuz](https://www.intuz.com) — an AI-first software development company specializing in [custom software development](https://www.intuz.com/software-development)
+and [AI development services](https://www.intuz.com/ai-development).
+<br><br>
+
 Backbone bits is an amazing tool to gain deep insight and easily respond to feedback of your users very quickly and with little effort for all of your apps. This documentation will help you to add and configure your apps with Backbone bits tool. Moreover, you can add FAQ, Videos, Images for the guidance of the app using help module.
 
 <br/>
